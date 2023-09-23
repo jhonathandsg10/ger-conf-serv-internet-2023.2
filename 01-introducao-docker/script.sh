@@ -28,3 +28,7 @@ docker system prune -all -f
 ######## CONTAINER COM EXECUÇÃO CONSTANTES ########
 docker run --name nginx1 -p 80:80 -d nginx:1.25-alpine
 
+#### apagar todos os containers####
+
+docker system prune --all -f
+
